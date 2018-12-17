@@ -21,13 +21,6 @@ def main():
             is_drawing_graph=True)
     print(route2)
 
-    start_station = metro_router.Station('Парк культуры', line=1)
-    finish_station = metro_router.Station('Бунинская аллея')
-    route3 = router.make_shortest_route(
-            start_station, finish_station,
-            is_drawing_graph=True)
-    print(route3)
-
     start_station = metro_router.Station('Окружная', line=10)
     finish_station = metro_router.Station('Братиславская')
     intermediate_station1 = metro_router.Station('Борисово')
